@@ -5,7 +5,7 @@ description  : "An action to check the respitory meets Maanaki Whenua Landcare R
 runs         :
   using      : 'docker'
   image      : 'docker://alpine:latest'
-  entrypoint : 'entrypoint.sh'
+  entrypoint : '/entrypoint.sh'
 branding     :
   icon       : 'award'
   color      : 'green'
