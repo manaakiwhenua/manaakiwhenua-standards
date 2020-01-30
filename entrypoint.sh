@@ -1,22 +1,37 @@
 #!/bin/bash -l
 
+declare -a passed_messages=()
+declare -a failed_messages=()
+CHECK_SIZE=2
+
 ### Check Readme 
 if [ -s README.md ] ; then
-    echo "README.md file exists and is non-empty"
+    passed_messages+=("README.md file exists and is non-empty")
     readme_check=true
 else
-    echo "README.md file either doesn't exists or is non-empty"
+    failed_messages+=("README.md file either doesn't exists or is non-empty")
     readme_check=false
 fi
 
 ### Check License
 if [ -s LICENSE ] ; then
-    echo "LICENSE file exists and is non-empty"
+    passed_messages+=("LICENSE file exists and is non-empty")
     license_check=true
 else
-    echo "LICENSE file either doesn't exists or is non-empty"
+    failed_messages+=("LICENSE file either doesn't exists or is non-empty")
     license_check=false
 fi
+
+echo "== Passed Checks ${#passed_messages[@]} / ${CHECK_SIZE} =="
+for i in "${passed_messages[@]}" ; do
+  echo " * ${i}"
+done
+
+echo ""
+echo "== Failed Checks ${#failed_messages[@]} / ${CHECK_SIZE} =="
+for i in "${failed_messages[@]}" ; do
+  echo " * ${i}"
+done
 
 
 if [ $readme_check = false ] || [ $license_check = false ] ; then
