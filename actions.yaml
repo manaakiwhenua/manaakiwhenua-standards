@@ -1,0 +1,11 @@
+---
+name         : 'MWLR Standards Action'
+author       : 'Maanaki Whenua Landcare Research'
+descrption   : "An action to check the respitory meets Maanaki Whenua Landcare Research's standards"
+runs         :
+  using      : 'docker'
+  image      : 'docker://debian:stetch-slim'
+  entrypoint : 'entrypoint.bash'
+branding     :
+  icon       : 'award'
+  color      : 'green'
