@@ -4,7 +4,7 @@ author       : 'Maanaki Whenua Landcare Research'
 description  : "An action to check the respitory meets Maanaki Whenua Landcare Research's standards"
 runs         :
   using      : 'docker'
-  image      : 'docker://debian:stretch-slim'
+  image      : 'docker://alpine:latest'
   entrypoint : 'entrypoint.bash'
 branding     :
   icon       : 'award'
