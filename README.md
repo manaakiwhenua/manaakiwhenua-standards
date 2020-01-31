@@ -1,6 +1,6 @@
 # MWLR Standards Action
 
-![.github/workflows/main.yml](https://github.com/manaakiwhenua/mwlr-standards-action/workflows/mwlr-standards/badge.svg)
+[![mwlr-standards](https://github.com/manaakiwhenua/mwlr-standards-action/workflows/mwlr-standards/badge.svg)](https://github.com/manaakiwhenua/mwlr-standards-action)
 
 This action checks the repository meets Manaaki Whenua Landcare Research's git standards.
 
