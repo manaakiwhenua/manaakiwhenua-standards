@@ -1,6 +1,6 @@
 # MWLR Standards Action
 
-[![mwlr-standards](https://github.com/manaakiwhenua/mwlr-standards-action/workflows/mwlr-standards/badge.svg)](https://github.com/manaakiwhenua/mwlr-standards-action)
+[![mwlr-standards](https://github.com/manaakiwhenua/manaakiwhenua-standards/workflows/mwlr-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
 
 This action checks the repository meets Manaaki Whenua Landcare Research's git standards.
 
@@ -18,7 +18,7 @@ Note, this action requires the checkout action.
 
 ```yaml
 uses : 'actions/checkout@v2'
-uses : actions/mwlr-standards-action@v0.1.0
+uses : actions/manaakiwhenua-standards@v0.1.1
 ```
 
 ## Standards
@@ -26,7 +26,7 @@ uses : actions/mwlr-standards-action@v0.1.0
 What are the MLWR Github standards?
 
 * Repository must include a README.md file that is non empty.
-* Repository must include a LICENSE file that is non empty.
+* Repository must include a LICENSE file that is non empty.  The LICENSE file can be named 'LICENSE', 'LICENSE.txt', or 'LICENSE.md'.
 
 ## Installation Instructions
 
@@ -46,11 +46,11 @@ jobs:
       - name : 'Checkout'
         uses : 'actions/checkout@v2'
       - name : 'mwlr-standards'
-        uses : manaakiwhenua/mwlr-standards-action@v0.1.0
+        uses : manaakiwhenua/manaakiwhenua-standards@v0.1.1
 ```
 
 Add the following code to your README.md file.  Please change the `<NAME OF YOUR REPOSITORY>`.
 
 ```markdown
-[![mwlr-standards](https://github.com/manaakiwhenua/<NAME OF YOUR REPOSITORY>/workflows/mwlr-standards/badge.svg)](https://github.com/manaakiwhenua/mwlr-standards-action)
+[![mwlr-standards](https://github.com/manaakiwhenua/<NAME OF YOUR REPOSITORY>/workflows/mwlr-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
 ```

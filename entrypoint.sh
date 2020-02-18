@@ -14,7 +14,7 @@ else
 fi
 
 ### Check License
-if [ -s LICENSE ] ; then
+if [ -s LICENSE ] || [ -s LICENSE.txt ] || [ -s LICENSE.md ] ; then
     passed_messages+=("LICENSE file exists and is non-empty")
     license_check=true
 else
