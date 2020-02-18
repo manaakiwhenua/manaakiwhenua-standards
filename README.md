@@ -1,4 +1,4 @@
-# MWLR Standards Action
+# Manaaki Whenua Standards
 
 [![mwlr-standards](https://github.com/manaakiwhenua/manaakiwhenua-standards/workflows/mwlr-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
 
