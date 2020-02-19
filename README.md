@@ -1,6 +1,6 @@
 # Manaaki Whenua Standards
 
-[![mwlr-standards](https://github.com/manaakiwhenua/manaakiwhenua-standards/workflows/mwlr-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
+[![manaakiwhenua-standards](https://github.com/manaakiwhenua/manaakiwhenua-standards/workflows/manaakiwhenua-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
 
 This action checks the repository meets Manaaki Whenua Landcare Research's git standards.
 
@@ -33,7 +33,7 @@ What are the MLWR Github standards?
 Please add the following code to .github/workflows/main.yml
 
 ```yaml
-name: mwlr-standards
+name: manaakiwhenua-standards
 
 on: [push]
 
@@ -45,12 +45,12 @@ jobs:
     steps:
       - name : 'Checkout'
         uses : 'actions/checkout@v2'
-      - name : 'mwlr-standards'
+      - name : 'manaakiwhenua-standards'
         uses : manaakiwhenua/manaakiwhenua-standards@v0.1.1
 ```
 
 Add the following code to your README.md file.  Please change the `<NAME OF YOUR REPOSITORY>`.
 
 ```markdown
-[![mwlr-standards](https://github.com/manaakiwhenua/<NAME OF YOUR REPOSITORY>/workflows/mwlr-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
+[![manaakiwhenua-standards](https://github.com/manaakiwhenua/<NAME OF YOUR REPOSITORY>/workflows/manaakiwhenua-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
 ```
