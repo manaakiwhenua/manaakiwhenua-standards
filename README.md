@@ -50,7 +50,7 @@ jobs:
         uses : manaakiwhenua/manaakiwhenua-standards@v0.1.1
 ```
 
-Add the following code to your README.md file.  Please change the `<NAME OF YOUR REPOSITORY>` to your repository name.
+Add the following code to your README.md file.  Please change the `<NAME OF YOUR REPOSITORY>` in the following line of code to your repository name.
 
 ```markdown
 [![manaakiwhenua-standards](https://github.com/manaakiwhenua/<NAME OF YOUR REPOSITORY>/workflows/manaakiwhenua-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
