@@ -1,8 +1,15 @@
-# Manaaki Whenua Standards
+# Manaaki Whenua GitHub Repository Standards
 
 [![manaakiwhenua-standards](https://github.com/manaakiwhenua/manaakiwhenua-standards/workflows/manaakiwhenua-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
 
-This action checks the repository meets Manaaki Whenua Landcare Research's git standards.
+Each time changes are pushed to a repository this GitHub action checks that the repository meets the Manaaki Whenua -- Landcare Research's GitHub repository standards and reports the status as either passing or failing via a repository status badge.
+
+## Current standards
+
+For a repository to meet the Manaaki Whenua standards the repository must contain:
+
+* A README.md file that is non-empty.
+* A LICENSE file that is non-empty.  The LICENSE file can be named 'LICENSE', 'LICENSE.txt', or 'LICENSE.md'.
 
 ## Inputs
 
@@ -20,13 +27,6 @@ Note, this action requires the checkout action.
 uses : 'actions/checkout@v2'
 uses : actions/manaakiwhenua-standards@v0.1.1
 ```
-
-## Standards
-
-What are the MLWR Github standards?
-
-* Repository must include a README.md file that is non empty.
-* Repository must include a LICENSE file that is non empty.  The LICENSE file can be named 'LICENSE', 'LICENSE.txt', or 'LICENSE.md'.
 
 ## Installation Instructions
 
@@ -49,7 +49,7 @@ jobs:
         uses : manaakiwhenua/manaakiwhenua-standards@v0.1.1
 ```
 
-Add the following code to your README.md file.  Please change the `<NAME OF YOUR REPOSITORY>`.
+Add the following code to your README.md file.  Please change the `<NAME OF YOUR REPOSITORY>` to your repository name.
 
 ```markdown
 [![manaakiwhenua-standards](https://github.com/manaakiwhenua/<NAME OF YOUR REPOSITORY>/workflows/manaakiwhenua-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
