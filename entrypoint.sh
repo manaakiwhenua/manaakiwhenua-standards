@@ -9,7 +9,7 @@ if [ -s README.md ] ; then
     passed_messages+=("README.md file exists and is non-empty")
     readme_check=true
 else
-    failed_messages+=("README.md file either doesn't exists or is non-empty")
+    failed_messages+=("README.md file either doesn't exist or is empty")
     readme_check=false
 fi
 
@@ -18,7 +18,7 @@ if [ -s LICENSE ] || [ -s LICENSE.txt ] || [ -s LICENSE.md ] ; then
     passed_messages+=("LICENSE file exists and is non-empty")
     license_check=true
 else
-    failed_messages+=("LICENSE file either doesn't exists or is non-empty")
+    failed_messages+=("LICENSE file either doesn't exist or is empty")
     license_check=false
 fi
 
