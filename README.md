@@ -1,6 +1,7 @@
-# Manaaki Whenua GitHub Repository Standards
-
 [![manaakiwhenua-standards](https://github.com/manaakiwhenua/manaakiwhenua-standards/workflows/manaakiwhenua-standards/badge.svg)](https://github.com/manaakiwhenua/manaakiwhenua-standards)
+
+# Manaaki Whenua - Landcare Research GitHub Repository Standards
+
 
 Each time changes are pushed to a repository this GitHub action checks that the repository meets the Manaaki Whenua -- Landcare Research's GitHub repository standards and reports the status as either passing or failing via a repository status badge.
 
