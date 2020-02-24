@@ -1,7 +1,7 @@
 ---
-name         : 'MWLR Standards Action'
-author       : 'Maanaki Whenua Landcare Research'
-description  : "An action to check the respitory meets Maanaki Whenua Landcare Research's standards"
+name         : 'Maanaki Whenua - Landcare Research Standards Action'
+author       : 'Maanaki Whenua - Landcare Research'
+description  : "A GitHub action to check a respitory meets the Maanaki Whenua - Landcare Research repository standards"
 runs         :
   using      : 'docker'
   image      : 'Dockerfile'
