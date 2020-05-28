@@ -30,7 +30,7 @@ uses : actions/manaakiwhenua-standards@v0.1.1
 
 ## Installation Instructions
 
-Please add the following code to .github/workflows/main.yml
+Please create the directory `.github/workflows` in your repository if it does not already exist, and then create a `.github/workflows/main.yml` file containing the following code:
 
 ```yaml
 name: manaakiwhenua-standards
