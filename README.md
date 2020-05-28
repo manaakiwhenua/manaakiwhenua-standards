@@ -30,6 +30,8 @@ uses : actions/manaakiwhenua-standards@v0.1.1
 
 ## Installation Instructions
 
+The standards files need to be tracked as part of the repository, therefore you will need to create and add them to your repository as you would for your other code and files.
+
 Please create the directory `.github/workflows` in your repository if it does not already exist, and then create a `.github/workflows/main.yml` file containing the following code:
 
 ```yaml
