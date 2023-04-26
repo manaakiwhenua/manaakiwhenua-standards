@@ -9,7 +9,7 @@ Each time changes are pushed to a repository this GitHub action checks that the 
 For a repository to meet the Manaaki Whenua standards the repository must contain:
 
 * A README.md file that is non-empty.
-* A LICENSE file that is non-empty.  The LICENSE file can be named 'LICENSE', 'LICENSE.txt', or 'LICENSE.md'.
+* A LICENSE file that is non-empty.  The LICENSE file can be named 'LICENSE', 'LICENSE.txt', or 'LICENSE.md'. Alternatively, in the case of LGPL, both 'COPYING' _and_ 'COPYING.lesser'.
 
 ## Inputs
 
@@ -25,7 +25,7 @@ Note, this action requires the checkout action.
 
 ```yaml
 uses : 'actions/checkout@v2'
-uses : actions/manaakiwhenua-standards@v0.1.1
+uses : actions/manaakiwhenua-standards@v0.2.0
 ```
 
 ## Installation Instructions
@@ -46,9 +46,9 @@ jobs:
 
     steps:
       - name : 'Checkout'
-        uses : 'actions/checkout@v2'
+        uses : 'actions/checkout@v3'
       - name : 'manaakiwhenua-standards'
-        uses : manaakiwhenua/manaakiwhenua-standards@v0.1.1
+        uses : manaakiwhenua/manaakiwhenua-standards@v0.2.0
 ```
 
 Add the following code to your README.md file.  Please change the `<NAME OF YOUR REPOSITORY>` in the following line of code to your repository name.
