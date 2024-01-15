@@ -17,8 +17,8 @@ fi
 if [ -s LICENSE ] || [ -s LICENSE.txt ] || [ -s LICENSE.md ] ; then
     passed_messages+=("LICENSE file exists and is non-empty")
     license_check=true
-elif [ -s COPYING ] && [ -s COPYING.lesser ] ; then
-    passed_messages+=("COPYING and COPYING.lesser files exist and are non-empty (GNU LGPL)")
+elif [ -s COPYING ] && [ -s COPYING.LESSER ] ; then
+    passed_messages+=("COPYING and COPYING.LESSER files exist and are non-empty (GNU LGPL)")
     license_check=true
 else
     failed_messages+=("LICENSE file either doesn't exist or is empty")

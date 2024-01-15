@@ -1,8 +1,11 @@
 # MWLR Standards Action Changelog
 
+## 2020-04-27 Version 0.2.2
+- Corrects check for COPYING.LESSER (rather than COPYING.lesser) for GNU LGPL
+
 ## 2020-04-27 Version 0.2.1
 
-- Corrects check for COPYING.LESSER (rather than COPYING.lesser) for GNU LGPL
+- Corrects check for COPYING.lesser
 
 ## 2020-04-27 Version 0.2.0
 

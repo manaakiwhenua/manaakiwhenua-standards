@@ -25,7 +25,7 @@ Note, this action requires the checkout action.
 
 ```yaml
 uses : 'actions/checkout@v2'
-uses : actions/manaakiwhenua-standards@v0.2.1
+uses : actions/manaakiwhenua-standards@v0.2.2
 ```
 
 ## Installation Instructions
@@ -48,7 +48,7 @@ jobs:
       - name : 'Checkout'
         uses : 'actions/checkout@v3'
       - name : 'manaakiwhenua-standards'
-        uses : manaakiwhenua/manaakiwhenua-standards@v0.2.1
+        uses : manaakiwhenua/manaakiwhenua-standards@v0.2.2
 ```
 
 Add the following code to your README.md file.  Please change the `<NAME OF YOUR REPOSITORY>` in the following line of code to your repository name.
